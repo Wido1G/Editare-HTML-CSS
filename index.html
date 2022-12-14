@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tenciu Marian">
+    <meta name="keywords" content="Voice Assistance, startup IT, AI, ">
+    <meta name="description" content="Voice Assistance generat pe bază de AI">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VOICE.AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
+
+       /* navbar */
+       .main-navbar {
+            background-color: rgb(1, 87, 247);
+            font-family: 'Manrope', sans-serif;
+            
+        }
+
+        .main-navbar .navbar-brand {
+            font-size: 30px;
+            line-height: 50px;
+            margin-bottom: 0;
+            margin-right: 30px;
+        }
+
+        .main-navbar .navbar-brand img {
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: bottom;
+        }
+
+        .main-navbar .nav-link {
+            color: rgb(255, 255, 255);
+        }
+
+        .main-navbar .nav-link:hover {
+            color: black;
+          
+        }
+        /* carousel */
+        .carousel-item .ratio img {
+            object-fit: cover;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.3); 
+            text-shadow: 2px 2px 12px #24262b;
+        }
+
+    .btn {
+      background-color:rgb(1, 87, 247);
+      color: white;
+    }
+    .btn:hover{
+      background-color: blue;
+    }
+    .container {
+      margin-top: 30px;
+    }
+
+        /* footer */
+        .main-footer {
+            background-color: rgb(1, 87, 247);
+        }
+
+        .main-footer .logo {
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-footer .logo img {
+            height: 30px;
+            margin-right: 6px;
+            vertical-align: bottom;
+        }
+        .main-footer p {
+          color: white;
+        }
+      
+
+    </style>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-md main-navbar sticky-top">
+        <nav class="container-xxl">
+            <h1 class="navbar-brand">
+              <a class="nav-link" href="index.html">
+                <img src="Assets/logo.png" />VOICE.AI
+              </a>
+            </h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="nav main-menu flex-column flex-md-row">
+                    <li class="nav-item"><a class="nav-link" href="#cum-functioneaza">Cum funcționează</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#oferte">Oferte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#echipa">Echipă</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>    
+      </div>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="ratio ratio-21x9">
+              <img src="Assets/galerie1.jpg" class="d-block w-100" alt="Mâinile unei femei tastând un email pe laptopul de culoare albă">
+            </div>
+              <div class="carousel-caption">
+                  <h1>VOICE.AI</h1>
+                  <p>Serviciile noastre sunt cele mai bune de pe piață</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-21x9">
+              <img src="Assets/galerie2.jpg" class="d-block w-100" alt="O masă de lemn pe care se află un laptop alb, un carnet cu un pix, un telefon mobil și o cană cu cafea">
+            </div>
+              <div class="carousel-caption">
+                <h1>VOICE.AI</h1>
+                <p>Asigurăm rezultate optime pentru clienții noștri</p>
+              </div>
+          </div>
+        <div class="carousel-item">
+          <div class="ratio ratio-21x9">
+            <img src="Assets/galerie3.jpg" class="d-block w-100" alt="Un bărbat și o femeie în costum discutând la o masă, bărbatul are un laptop, pe masă se află un ceas">
+            </div>
+          <div class="carousel-caption">
+            <h1>VOICE.AI</h1>
+            <p>Luăm în considerare fiecare opinie</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="ratio ratio-21x9">
+          <img src="Assets/galerie4.jpg" class="d-block w-100" alt="O masă de lemn pe care se află mai multe laptopuri, mai mutle baterii externe, căni cu cafea, un bol și un ceainic">
+          </div>
+          <div class="carousel-caption">
+              <h1>VOICE.AI</h1>
+              <p>Încurajăm întotdeauna lucrul în echipă</p>
+          </div>
+       </div>
+       <div class="carousel-item">
+        <div class="ratio ratio-21x9">
+        <img src="Assets/galerie5.jpg" class="d-block w-100" alt="Un birou alb pe care se află o ceașcă de cafea, un carnet deschis pe care se află un pix, un laptop și o geantă de piele cu o pereche de ochelari și un telefon">
+        </div>
+        <div class="carousel-caption">
+            <h1>VOICE.AI</h1>
+            <p>Voice Assistant bazat pe tehnologia AI</p>
+        </div>
+       </div>
+         
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  <hr />
+  <section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="O mână de femeie care ține un telefon mobil pe ecranul căruia se află un site numit BYRON" class="img-fluid" src="Assets/agency3.png"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2 id="cum-functioneaza">Cum funcționează VOICE.AI?</h2>
+						<p>Asistenții vocali sunt programe software care utilizează procesarea limbajului natural pentru a înțelege și a răspunde la comenzile vocale. Acest lucru ne permite să ne controlăm dispozitivele și să accesăm informații folosind doar vocile noastre, făcându-le mai convenabile și mai intuitive decât oricând. Asistentul nostru vocal este construit folosind cele mai recente progrese în tehnologia AI, permițându-i să învețe și să se adapteze la preferințele și comportamentele utilizatorului în timp. Aceasta înseamnă că, cu cât îl folosiți mai mult, cu atât vă înțelege mai bine nevoile și vă oferă informațiile de care aveți nevoie. Asistentul nostru vocal este, de asemenea, extrem de versatil și poate fi integrat într-o gamă largă de dispozitive. Indiferent dacă utilizați un smartphone, un laptop sau un difuzor inteligent, asistentul nostru vocal este acolo pentru a vă ușura viața. Deci, de ce să așteptați? Încercați astăzi asistentul nostru vocal și experimentați comoditatea și ușurința utilizării vocii pentru a vă controla dispozitivele și a accesa informații. Vă mulțumim că ați luat în considerare produsul nostru.</p><a class="btn" href="#more">Află mai multe!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+  <hr />
+  <section id="portfolio" class="portfolio section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2 class="h2text" id="oferte">Serviciile noastre</h2>
+                    <p>VOICE.AI îți oferă servicii <br> specifice nevoilor afacerii tale.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-light text-center bg-white pb-2">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <img src="Assets/produs1.png"
+                                class="img-fluid" alt="O iulstrație care prezintă 3 oameni stând pe un ax, reprezentând conexiunea dintre oameni, lucrul în echipă">
+                        </div>
+                        <h3 class="card-title h2text">Asistent vocal simplu</h3>
+                        <p class="lead">Pornind de la o taxonomie și ontologie globală care include peste 5 miliarde de intenții și peste 1T fraze în peste 74 de limbi, VOICE.AI învață continuu să rezolve în mod autonom problemele angajaților și clienților printr-o înțelegere contextuală de clasă mondială a interacțiunilor folosind AI conversațional și RPA. </p>
+                        <span class="badge rounded-pill text-bg-success">1000$</span>
+                        <span class="badge rounded-pill text-bg-primary">Cea mai bună opțiune</span>
+                        <span class="badge rounded-pill text-bg-danger">Cel mai folosit plan</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-light text-center bg-white pb-2">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <img src="Assets/produs2.png" class="img-fluid"
+                                alt="O ilustrație cu o axă în interiorul căreia se află un card">
+                        </div>
+                        <h3 class="card-title h2text">Asistent vocal avansat</h3>
+                        <p class="lead">Cu învățare consolidată la fiecare pas al fiecărei angajamente, VOICE.AI îmbină inteligența comportamentală a utilizatorilor și a serviciilor cu NLP supravegheat și nesupravegheat, NLU semantic și NLG pentru un flux de dialog îmbunătățit cu utilizatorii. Asta se adaugă la o experiență excepțională de servicii AI în întreaga întreprindere</p>
+                        <span class="badge rounded-pill text-bg-success">2000$</span>
+                        <span class="badge rounded-pill text-bg-primary">Opțiune avansată</span>
+                        <span class="badge rounded-pill text-bg-danger">Suport 24/7</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-light text-center bg-white pb-2">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <img src="Assets/produs3.png" class="img-fluid"
+                                alt="O ilustrație care prezintă un circuit format dintr-o baterie, un bec și două borne">
+                        </div>
+                        <h3 class="card-title h2text">Ultimate Voice Assistant</h3>
+                        <p class="lead">Una dintre caracteristicile cheie ale acestui asistent vocal avansat este capacitatea sa de a învăța și de a se adapta la preferințele și comportamentele utilizatorului în timp. Aceasta înseamnă că, cu cât îl folosiți mai mult, cu atât vă înțelege mai bine nevoile și vă oferă informațiile și serviciile de care aveți nevoie.</p>
+                        <span class="badge rounded-pill text-bg-success">3000$</span>
+                        <span class="badge rounded-pill text-bg-primary">Cea mai avansată opțiune</span>
+                        <span class="badge rounded-pill text-bg-danger">Asigură succesul</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio" class="portfolio section-padding">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                  <h2 class="h2text" id="echipa">Echipa noastră</h2>
+                  <p>Echipa de cercetători ai asistenților vocali AI VOICE.AI este formată din persoane dintr-o gamă largă de medii diferite, inclusiv informatică, lingvistică și inginerie electrică. Acești experți lucrează împreună pentru a dezvolta algoritmi și modele care pot analiza vorbirea umană și înțelege semnificația acesteia, precum și pentru a genera răspunsuri naturale. Aceasta este o sarcină provocatoare, deoarece vorbirea umană este incredibil de complexă și poate varia foarte mult în funcție de accentul, dialectul și chiar starea emoțională a unei persoane.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                  <div class="card-body text-dark">
+                      <div class="img-area mb-4">
+                          <img src="Assets/avatar.jpg"
+                              class="img-fluid" alt="Bărbat caucazian îmbrăcat într-un costum negru, care ține o cană albă în mână">
+                      </div>
+                      <h3 class="card-title h2text">Tenciu Marian</h3>
+                      <p class="lead">A început povestea VOICE.AI în 2012, începându-și afacerea în garajul din fața casei, reușind în ciuda tuturor vicisitudinilor care i s-au arătat în această călătorie numită VOICE.AI </p>
+                      <span class="badge rounded-pill text-bg-success">Fondator</span>
+                      <span class="badge rounded-pill text-bg-primary">CEO</span>
+                      <span class="badge rounded-pill text-bg-danger">Manager</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                  <div class="card-body text-dark">
+                      <div class="img-area mb-4">
+                          <img src="Assets/avatar2.jpg" class="img-fluid"
+                              alt="Bărbat îmbrăcat simplu, care ține în mână o notiță pe care scrie CODE">
+                      </div>
+                      <h3 class="card-title h2text">Toto Eremia</h3>
+                      <p class="lead">I s-a alăturat fondatorului în anul 2013 printr-o investiție mare de circa 100.000$, care a asigurat continuitatea companiei VOICE.AI, care a cunoscut un uriaș succes de la venirea sa.</p>
+                      <span class="badge rounded-pill text-bg-success">Asociat</span>
+                      <span class="badge rounded-pill text-bg-primary">Manager AI RESEARCH</span>
+                      <span class="badge rounded-pill text-bg-danger">Suport IT</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-light text-center bg-white pb-2">
+                  <div class="card-body text-dark">
+                      <div class="img-area mb-4">
+                          <img src="Assets/avatar3.jpg" class="img-fluid"
+                              alt="Bărbat într-un hanorac gri, cu ochelari, care are o cască în ureche și un microfon">
+                      </div>
+                      <h3 class="card-title h2text">Leonard Doroftei</h3>
+                      <p class="lead">A devenit al treilea asociat în anul 2016 când a realizat o investiție puternică în compania VOICE.AI, are studii la Harvard și a fost premiat de către NASA în 2015 petru cel mai bun angajat al lunii.</p>
+                      <span class="badge rounded-pill text-bg-success">Asociat</span>
+                      <span class="badge rounded-pill text-bg-primary">Manager Relații cu Clienții</span>
+                      <span class="badge rounded-pill text-bg-danger">Greu de înțeles</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="about section-padding" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-12">
+        <div class="about-text">
+          <h2 id="more">De ce să alegi experții VOICE.AI?</h2>
+          <p>Pentru a-și îndeplini obiectivele, echipa de cercetători ai asistenților vocali AI folosește o varietate de tehnici și instrumente diferite. De exemplu, aceștia pot folosi algoritmi de învățare automată pentru a-și antrena sistemele pe seturi mari de date ale vorbirii umane, pentru a-i ajuta să învețe să recunoască și să interpreteze diferite cuvinte și expresii. Ei pot folosi, de asemenea, tehnici de procesare a limbajului natural pentru a permite sistemelor lor să înțeleagă sensul de bază al propozițiilor și al contextelor conversaționale. Pe lângă expertiza lor tehnică, echipa de cercetători asistenți vocali AI trebuie să aibă și abilități puternice de rezolvare a problemelor și gândire critică. Acest lucru se datorează faptului că domeniul AI este în continuă evoluție, iar cercetătorii trebuie să fie capabili să se adapteze la noile provocări și descoperiri pentru a face progrese. De asemenea, trebuie să poată lucra în colaborare cu alții, pentru a-și combina diferitele domenii de expertiză și a veni cu soluții inovatoare la problemele la care lucrează.</p>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Este important ca afacerea ta să aibă un Voice Assistant?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Desigur, în funcție de domeniul în care afacerea ta activează, aceasta are la un moment dat nevoie de un asistent vocal care să automatizeze relațiile simple cu clienții.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Există program de refund?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Odată ce ai amplasat comanda, aceasta nu poate fi returnată, în schimb produsul va rămâne al tău, implicit tot progresul pe care asistentul vocal l-a înregistrat.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Care este randamentul VOICE.AI?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">În momentul de față, VOICE.AI este liderul de piață în materie de asistenți vocali. Suntem cel mai bine cotat start-up din Europa și tindem să extindem această afacere la nivel global.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div class="about-img"><img alt="Telefon pe un fundal alb" class="img-fluid" src="Assets/phone2.png"></div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+
+  <footer class="main-footer mt-5">
+    <div class="container">
+        <div class="d-flex justify-content-between pt-3">
+            <a href="index.html" class="logo">
+                <img src="Assets/logo.png" />VOICE.AI
+            </a>
+
+            <ul class="nav justify-content-end list-unstyled d-flex">
+                <li class="me-3">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="Assets/facebook.png" alt="Logo Facebook" />
+                    </a>
+                </li>
+                <li class="me-3">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="Assets/twitter.png" alt="Logo Twitter" />
+                    </a>
+                </li>
+                <li  class="me-3">
+                    <a href="https://instagram.com/" target="_blank">
+                        <img src="Assets/instagram.png" alt="Logo Instagram" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-center">
+            <div class="text-muted pb-3">
+              <p>© 2022 VOICE.AI, Inc</p>
+              <p>Strada General Traian Moșoiu 71</p>
+              <p>+4075786798</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+</html>
+
+
+
+
+
+  
