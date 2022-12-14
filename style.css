@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
+
+/* navbar */
+.main-navbar {
+    background-color: rgb(1, 87, 247);
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.main-navbar .navbar-brand {
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+.main-navbar .navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.main-navbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.main-navbar .nav-link:hover {
+    color: black;
+
+}
+
+/* carousel */
+.carousel-item .ratio img {
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 12px #000000;
+
+}
+
+/* misc */
+
+.btn {
+    background-color: rgb(1, 87, 247);
+    color: white;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* footer */
+
+.main-footer {
+    background-color: rgb(1, 87, 247);
+}
+
+.main-footer .logo {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer .logo img {
+    height: 30px;
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+
+.main-footer p {
+    color: white;
+}
