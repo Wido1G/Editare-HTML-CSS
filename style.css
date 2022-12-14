@@ -42,14 +42,14 @@
 
 /* misc */
 
-.btn {
+#oferte {
     --bs-btn-color: #ffffff;
     --bs-btn-bg: rgb(1 87 247);
     background-color: rgb(1, 87, 247);
     color: white;
 }
 
-.btn:hover {
+#oferte:hover {
     background-color: blue;
 }
 
